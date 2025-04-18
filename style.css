@@ -49,3 +49,8 @@ body {
      footer b {
         margin-top: 2px;
      }
+     
+     h1 {
+      width: 5px;
+      height: 3px;
+     }
