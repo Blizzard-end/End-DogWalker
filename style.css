@@ -50,7 +50,19 @@ body {
         margin-top: 2px;
      }
      
-     h1, h2, h3, h4, p {
-      text-align: center;
-  }
+    /* Centralizar todos os textos */
+h1, h2, h3, h4, p {
+   text-align: center;
+}
+
+/* Centralizar as imagens da galeria */
+main section {
+   text-align: center;
+}
+
+/* Espaçamento entre imagens */
+main section img {
+   margin: 10px;
+}
+
   
