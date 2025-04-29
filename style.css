@@ -82,4 +82,45 @@ main section img {
    font-size: 16px;
  }
  
-  
+  /* Responsividade para telas menores */
+@media (max-width: 768px) {
+   nav ul {
+     flex-direction: column;
+     align-items: center;
+     padding: 0;
+   }
+ 
+   header img {
+     width: 90%;
+     height: auto;
+   }
+ 
+   .photo-container img {
+     width: 90%;
+     height: auto;
+   }
+ 
+   main section {
+     padding: 10px;
+   }
+ 
+   h2, h3, h4, p {
+     padding: 0 10px;
+     font-size: 1rem;
+   }
+ 
+   footer {
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   footer a {
+     margin: 10px 0;
+   }
+ 
+   ul {
+     flex-direction: column;
+     gap: 10px;
+   }
+ }
+ 
